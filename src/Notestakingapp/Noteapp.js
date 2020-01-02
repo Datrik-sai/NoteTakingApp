@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-
+import { Icon } from "antd";
+import * as moment from "moment";
 class Noteapp extends Component {
     constructor(props) {
         super(props);
@@ -44,12 +45,37 @@ class Noteapp extends Component {
                 </div>
                 <header>
                     {this.state.items.map((val, index) => (
-                        <div>
+                        <div className="s1">
+                            <moment
+                                style={{
+                                    fontSize: 10,
+                                    float: "left",
+                                    padding: 2,
+                                    color: "green",
+                                    
+                                }}
+                            >
+                                {moment().format("MMMM Do YYYY,LT")}
+                            </moment>
+                            <br />
                             {val.title}-{val.note}
-                            <button onClick={() => this.removeHandler(index)}>Delete</button>
+                            <Icon
+                                type="delete"
+                                style={{
+                                    fontSize: "15px",
+                                    color: "rgb(179, 76, 76)",
+                                    float: "right",
+                                    cursor: "pointer",
+                                    marginRight: 30,
+                                    padding: 5,
+                                    outline: "none"
+                                }}
+                                theme="filled"
+                                onClick={() => this.removeHandler(index)}
+                            />
                         </div>
-                  ))}
-        </header>
+                    ))}
+                </header>
 
                 <div className="footer">
                     <form onSubmit={this.addNoteHandler}>

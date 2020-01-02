@@ -12,3 +12,17 @@
 body{
   text-align: center;
 }
+
+.s1{
+  background-color: rgb(252, 252, 252);
+  margin: 24px auto;
+  width: 50%;
+  border-radius: 8px;
+  padding: 10px auto;
+  font-size: 20px;
+  font-style: Serif;
+  position: relative; 
+  overflow: auto;
+}
+
+
