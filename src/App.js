@@ -1,24 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+
+import Greet from "./Components/testfunction";
+import Message from "./Components/testclass";
+import MessageState from "./Components/sateclass";
+import Counter from "./Components/Counter";
+import Eventhandler from "./Components/eventHandler";
+import ParentComponent from "./Components/Parent";
+import Conditional from "./Components/ConditionalOperators";
+import Styles from "./Components/Styles";
+import InlineStyling from "./Components/inlinestyling";
+import Noteapp from './Notestakingapp/Noteapp';
+import './Notestakingapp/Noteapp.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         welcome
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Greet name='saikiran'/>
+      <Greet name='saipriya'/>
+      <Greet name='sarika'/>
+  <Message relation='siblings'/> 
+  <MessageState/>  
+  <Counter/>
+  <Eventhandler/>
+  
+  <Conditional/>
+  <Styles />
+  
+  <InlineStyling/>
+  <ParentComponent /> */}
+  <Noteapp/>
     </div>
   );
 }
