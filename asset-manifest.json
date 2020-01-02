@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/NoteTakingApp/static/css/main.afa42c89.chunk.css",
+    "main.js": "/NoteTakingApp/static/js/main.8218c586.chunk.js",
+    "main.js.map": "/NoteTakingApp/static/js/main.8218c586.chunk.js.map",
+    "runtime-main.js": "/NoteTakingApp/static/js/runtime-main.f070b572.js",
+    "runtime-main.js.map": "/NoteTakingApp/static/js/runtime-main.f070b572.js.map",
+    "static/js/2.b1ed8417.chunk.js": "/NoteTakingApp/static/js/2.b1ed8417.chunk.js",
+    "static/js/2.b1ed8417.chunk.js.map": "/NoteTakingApp/static/js/2.b1ed8417.chunk.js.map",
+    "index.html": "/NoteTakingApp/index.html",
+    "precache-manifest.6136388ccef33976c653b53d4f6512fb.js": "/NoteTakingApp/precache-manifest.6136388ccef33976c653b53d4f6512fb.js",
+    "service-worker.js": "/NoteTakingApp/service-worker.js",
+    "static/css/main.afa42c89.chunk.css.map": "/NoteTakingApp/static/css/main.afa42c89.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f070b572.js",
+    "static/js/2.b1ed8417.chunk.js",
+    "static/css/main.afa42c89.chunk.css",
+    "static/js/main.8218c586.chunk.js"
+  ]
+}
